@@ -1,11 +1,11 @@
 cask "seodisias" do
-  version "0.1.1"
+  version "0.1.2"
 
   if Hardware::CPU.arm?
-    sha256 "fec6932dec66b152ac999632437682d3a287f4a4af0690a9e69751ef3b20f514"
+    sha256 "063ad720da7eeca52b6676de6c7dba5701675e3b91897506ada3a68f46dc5218"
     url "https://github.com/aligundogdu/seodisias-releases/releases/download/v#{version}/seodisias-darwin-arm64.dmg"
   else
-    sha256 "236602020f1d5e4ce099118c2ae16434a1d9769bd8404845d4972e8c932927d0"
+    sha256 "e063444b79eb55721d0968879b30253b3535642356c0842901316866be7508c1"
     url "https://github.com/aligundogdu/seodisias-releases/releases/download/v#{version}/seodisias-darwin-amd64.dmg"
   end
 
